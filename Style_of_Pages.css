@@ -5,8 +5,6 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-drection: column;
     font-weight: 700;
     color: black;
     font-family: Arial, sans-serif;
