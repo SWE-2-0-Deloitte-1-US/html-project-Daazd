@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 700;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/fa/ba/63/faba6356d9a970b55b6658328e73d017.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #378b29;
+    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: forestgreen;
+    color: #fff;
+}
+
+footer {
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+@keyframes moveRight {
+    0% {left: 0; }
+    100% {left: 100px; }
+
+}
+
+.animated-element {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    animation: moveRight 2s infinite alternate;
+}
